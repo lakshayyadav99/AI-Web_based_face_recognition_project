@@ -1,14 +1,6 @@
 # Face Recognition with Liveness Detection Login on Flask Web application
 ## Project Overview
-&nbsp;&nbsp;&nbsp;&nbsp;We have implemented Flask web application login page including face verification (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with liveness detection mechanism (to check whether the person detected on the camera is a REAL person or FAKE (eg. image, video, etc. of that person)), for Anti-Spoofting (Others pretending to be the person), built with Convolutional Neural Network. After the login page, we also provided a webpage placeholder for future use.   
-  
-**Login component:**  
-<img src="./assets/example.jpg" width=374 height=521>  
-  
-**Loggin in and running inference process:**  
-<img src="./assets/short_demo.gif">
-
-**Link to full demo on Youtube (recommend watching):** https://www.youtube.com/watch?v=2S-HmiPNViU 
+&nbsp;&nbsp;&nbsp;&nbsp;We have implemented Flask web application login page including face verification (1-to-1 to verify whether the person who is logging in is really that person), for security purpose, with liveness detection mechanism (to check whether the person detected on the camera is a REAL person or FAKE (eg. image, video, etc. of that person)), for Anti-Spoofting (Others pretending to be the person), built with Convolutional Neural Network. After the login page, we also provided a webpage placeholder for future use.    
 
 ## Result
 * The face recognition works well detecting face and accurately recognizing the face.
@@ -137,7 +129,5 @@ All login mechanism work properly, but sometimes OpenCV camera doesn't show up w
 - https://www.pyimagesearch.com/2019/03/11/liveness-detection-with-opencv/
 - https://www.youtube.com/watch?v=2Zz97NVbH0U&t=790s  
   
-**image in the log in page:** https://www.welivesecurity.com/wp-content/uploads/2019/12/face-scanning-1-e1575541339743.jpg?h=660&la=en&w=1170
 
 # Thank you for reading til the end. YOU ARE AMAZING!!! :D
-<img src="./static/photos/python_java_meme.gif">
